@@ -1,0 +1,42 @@
+html{
+  font-size: 16px;
+}
+#clicked{
+  background-color: #FCECEC;
+  color: #4D4D4D;
+}
+table tr{
+  height: 3rem;
+}
+.contact th{
+  width: 150px;
+  text-align: right;
+  padding-right: 10px;
+}
+.contact td{
+  width: 480px;
+}
+.input_text{
+  width: 480px;
+}
+.contact textarea{
+  height: 3rem;
+  width: 480px;
+}
+.button{
+  text-align: center;
+}
+.button button{
+  background-color: #008B8B;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+}
+.button button:hover{
+  opacity: 0.5;
+}
+#contact_footer{
+  position: fixed;
+  bottom: 0;
+}

@@ -1,0 +1,140 @@
+body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  height: 50px;
+  width: 980px;
+  background-color: #F5B4B3;
+}
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header ul li {
+  float: left;
+  margin: 0;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.header ul li a {
+  text-decoration: none;
+  color: inherit;
+  float: left;
+  padding: 15px;
+  display: block;
+}
+.header ul li a:hover{
+  text-decoration: underline;
+}
+.logo {
+  height: 50px;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.top {
+  width: 980px;
+}
+.side_menu{
+  width: 300px;
+  float: left;
+}
+.side_menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 10px;
+}
+.side_menu li:hover{
+  opacity: 0.6;
+}
+.side_menu ul li {
+  margin-bottom: 15px;
+  background-color: #F5B4B3;
+  height: 50px;
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+.side_menu ul li a {
+  vertical-align: middle;
+  text-decoration: none;
+  padding: 2rem;
+  color: #fff;
+}
+.banner{
+  margin-top: 10px;
+}
+.banner img{
+  width: 100%;
+  margin-top: 10px;
+}
+.banner a:hover{
+  opacity: 0.6;
+}
+.content{
+  height: 200px;
+  width: 660px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 1rem;
+}
+.news{
+  background-color: #848484;
+}
+.news ul{
+  list-style: none;
+  padding: 0.5rem;
+}
+.news ul li{
+  margin: 0.5rem;
+}
+.footer{
+  background-color:  #4D4D4D;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  display: table;
+  margin-top: 20px;
+}
+.footer p{
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  margin: 0;
+}
+.banner_content p{
+  margin-top: 315px;
+  margin-left: 320px;
+}
+.banner_content p img{
+  width: 330px;
+  margin: 0;
+  float: left;
+}
+.image_area{
+  width: 660px;
+  float: left;
+}
+#business_footer{
+  margin-top: 260px;
+}
+.point a{
+  color: #AD4D4D;
+}
+#clicked{
+  background-color: #FCECEC;
+  color: #4D4D4D;
+}
