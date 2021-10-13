@@ -1,12 +1,14 @@
 html{
   font-size: 16px;
 }
-#clicked{
+#point{
   background-color: #FCECEC;
+}
+#point a{
   color: #4D4D4D;
 }
 table tr{
-  height: 3rem;
+  height: 7rem;
 }
 .contact th{
   width: 150px;
@@ -31,12 +33,12 @@ table tr{
   padding: 10px;
   color: #fff;
   border: none;
-  font-size: 1.2rem;
+  font-size: 3rem;
+  margin-bottom: 120px;
 }
 .button button:hover{
   opacity: 0.5;
 }
 #contact_footer{
   position: fixed;
-  bottom: 0;
 }
