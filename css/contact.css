@@ -9,6 +9,7 @@ html{
 }
 table tr{
   height: 7rem;
+  height: 38px;
 }
 .contact th{
   width: 150px;
